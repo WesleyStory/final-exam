@@ -11,6 +11,8 @@
   <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js" integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l" crossorigin="anonymous"></script>
   <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/4.0.0/lux/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 
   <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 </head>
@@ -19,7 +21,12 @@
   <div class="article">
   <h1>On-Campus Residents Required to Contribute to UT Food Service Business</h1>
 
-  <img src="file:///Users/wesleystory/Documents/CodingforJ/DiningHall1.jpg">
+  <div class="your-class">
+  <div>img src="file:///Users/wesleystory/Documents/CodingforJ/DiningHall1.jpg"</div>
+  <div>img src="file:///Users/wesleystory/Documents/CodingforJ/jestereating.jpg"</div>
+  <div>img src="file:///Users/wesleystory/Documents/CodingforJ/j2.jpg"</div>
+</div>
+
   <p class="caption">A UT student being served food at J2, one of the Division of Housing and Food's dining locations.</p>
 
   <h2><p class="byline"> <strong> By Wesley Story </strong> </p></h2>
@@ -50,7 +57,7 @@
 
     <p class="paragraph8">Some products in the on-campus markets have noticeable upcharges compared to local grocery stores. Jester City Market, located in Jester Dormitory, charges $3.75 for a half-gallon of milk, while the same product at the HEB on Burnet Road costs $1.66. Even with the 10 percent discount, students pay 104 percent more (more than twice as much) for the milk than they would at HEB.</p>
 
-    <p class="paragraph9">Many other normal grocery items found in the on-campus markets demonstrate this price disparity. The data table featured compares prices of products found at Jester City Market (one of the two on-campus markets) to the HEB prices for the same products.</p>
+    <p class="paragraph9">Many other normal grocery items found in the on-campus markets demonstrate this price disparity. </p>
 
   <div class="right-column">
 
@@ -142,6 +149,7 @@
           </tbody>
       </table>
 
+      <p class="caption">The data table compares prices of products found at Jester City Market (one of the two on-campus markets) to the HEB prices for the same products. </p>
     </div>
 
 
@@ -157,16 +165,16 @@
 
     <p class="paragraph15">The $900 option guarantees 250 meals, meaning that each meal is $3.60. For $900, students at UT can only buy 162 meals. Students noticed differences like these between UT and other universities in the state and used those differences to argue for change unsuccessfully.</p>
 
+    <div class="left-column">
+    <img src="file:///Users/wesleystory/Documents/CodingforJ/JCL.jpg">
+    <p class="caption"> Jester City Limits, a dining location which offers more specialized food to on-campus residents. </p>
+  </div>
+
     <p class="paragraph16">Dana Lowe, a psychology sophomore at Texas State University, said it was the cost of tuition and on-campus living expenses that ultimately decided where she went to college.</p>
 
     <p class="paragraph17">"I was originally interested in attending UT, but I couldn't afford it," Lowe said. "The meal plan might seem like a small difference to some, but when you're paying for college on your own like me, things like that can be a deciding factor."</p>
 
     <p class="paragraph18">Lowe said she has never run out of swipes before the end of the semester and does not know of anyone else who has run out of swipes.</p>
-
-    <div class="right-column">
-    <img src="file:///Users/wesleystory/Documents/CodingforJ/JCL.jpg">
-    <p class="caption"> Jester City Limits, a dining location which offers more specialized food to on-campus residents. </p>
-  </div>
 
     <p class="paragraph19">DHFS is in the Division of Student Affairs at UT and is responsible for all on-campus residence facilities and the University Apartments. The self-supporting Division operates its own food service without State or University funds and employs approximately 1,000 full and parttime staff, according to the DHFS website. This means that DHFS is not subsidized by the University, but is a separate entity that funds itself.</p>
 
@@ -174,11 +182,30 @@
 
     <p class="paragraph21">"I understand students' complaints, but the current business model has proven to be the most profitable for DHFS and the most affordable for students," Meyer said. "Though students may have to practice budgeting in order to make their Dining Dollars last all semester, the method we have in place allows for more spending flexibility."  </p>
 
+    <div class="right-column">
+    <img src="file:///Users/wesleystory/Documents/CodingforJ/KinsMarket.jpg">
+    <p class="caption"> Kins Market, a market located in Kinsolving Residence Hall which sells grocery items you might find in your local market.</p>
+  </div>
+
     <p class="paragraph22"> Meyer said that with the markets and the different prices for specialized foods in Jester City Limits and Littlefield Patio Café, it would be impossible to go back to a swipe system because of the lack of price uniformity. </p>
 
     <p class="paragraph23">"It's easy to speculate about other models and I know there are many students who wish we did things the same way as other universities like Tech or Texas State, but in practice, the swipe system would not hold up here because of our size," Meyer said.  </p>
 
     <p class="paragraph24">Meyer said he could not release the Divisions' financial paperwork, but that there has been a small increase in revenue for DHFS this semester. Meyer said he believes the increase may be a result of the biggest freshmen class the University has seen to date.  </p>
+  </div>
+</div>
+</div>
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+  $('.your-class').slick({
+    dots: true; 
+  });
+});
 
 </body>
 </html>
