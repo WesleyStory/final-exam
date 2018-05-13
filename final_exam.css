@@ -154,3 +154,17 @@ table {
   border: 2px ridge black; /*57*/
   padding: 5px; /*58*/
 }
+.right-column h1 {
+  border: none;
+  font-size: 50px;
+}
+.fa-money-bill-alt {
+  font-size: 50px;
+  font-weight: bold;
+  color: black; 
+}
+.fa-chart-line {
+  font-size: 50px;
+  font-weight: bold;
+  color: black;
+}
