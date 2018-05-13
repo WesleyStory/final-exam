@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DataTables exercise</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+</head>
+<body>
+
+  <table id="example" class="display" cellspacing="0" width="100%">
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>UT Market Price</th>
+                <th>Price After 10% Discount</th>
+                <th>HEB Price</th>
+                <th>% Difference</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+              <th>Item</th>
+              <th>UT Market Price</th>
+              <th>Price After 10% Discount</th>
+              <th>HEB Price</th>
+              <th>% Difference</th>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td>1/2 Gallon Milk</td>
+                <td>$3.75</td>
+                <td>$3.38</td>
+                <td>$1.66</td>
+                <td>104%</td>
+            </tr>
+            <tr>
+                <td>Loaf of Bread (Mrs. Baird's)</td>
+                <td>$3.39</td>
+                <td>$3.05</td>
+                <td>$2.18</td>
+                <td>40%</td>
+            </tr>
+            <tr>
+                <td>Healthy Choice Soup</td>
+                <td>$4.89</td>
+                <td>$4.40</td>
+                <td>$1.68</td>
+                <td>162%</td>
+            </tr>
+            <tr>
+                <td>8.9 oz Box of Cheerios</td>
+                <td>$6.19</td>
+                <td>$5.57</td>
+                <td>$2.62</td>
+                <td>113%</td>
+            </tr>
+            <tr>
+                <td>8 Box of Pop Tarts</td>
+                <td>$4.29</td>
+                <td>$3.86</td>
+                <td>$1.98</td>
+                <td>95%</td>
+            </tr>
+            <tr>
+                <td>Peter Pan Peanut Butter (16.3 oz)</td>
+                <td>$5.09</td>
+                <td>$4.58</td>
+                <td>$2.32</td>
+                <td>97%</td>
+            </tr>
+            <tr>
+                <td>Pint of Ben & Jerry's Ice Cream</td>
+                <td>$5.99</td>
+                <td>$5.39</td>
+                <td>$4.28</td>
+                <td>26%</td>
+            </tr>
+            <tr>
+                <td>RedBull (4 pack)</td>
+                <td>$7.99</td>
+                <td>$7.19</td>
+                <td>$6.20</td>
+                <td>16%</td>
+            </tr>
+            <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+            <link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css" />
+            <script>$(document).ready(function() {
+    $('#example').DataTable( {
+        "scrollY":        "200px",
+        "scrollCollapse": true,
+        "paging":         false
+    } );
+} );</script>
+        </tbody>
+    </table>
+</body>
