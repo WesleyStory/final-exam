@@ -1,0 +1,70 @@
+body {
+  background-color: #000000;
+  padding: 60px; /*1 changes the body padding to 60px*/
+}
+.container {
+  background-color: #EEEEEE;
+  max-width: 900px;
+  margin: 0 auto; /* NOTE: use this to center container*/
+  padding: 40px;
+  overflow: auto; /* NOTE: must do overflow to fill container*/
+  border: 10px ridge black /*2 gave container a border*/
+}
+* {
+  box-sizing: border-box;
+}
+@media(min-width: 500px) {
+  .left-column {
+    float: left;
+    width: 50%;
+    padding-right: 15px;
+  }
+  .right-column {
+    float: right;
+    width: 50%;
+    padding-left: 15px;
+}
+}
+.a {
+  font-weight: bold;
+  font-size: 17px;
+}
+.b {
+  font-style: italic;
+}
+.c {
+  font-size: 8px; /*20 made font size for 3rd line of byline 8px*/
+}
+p {
+  font-size: 15px;
+}
+.caption{
+  font-size: 10px;
+  font-color: gray;
+  padding-top: 10px;
+  border-bottom: black inset 1px; /*11 gave bottom border to captions*/
+  font-family: Georgia; /*12 changed caption font family to Georgia*/
+  font-style: italic; /*13 made caption font style italic */
+  color: #777777; /* 14 made font color light gray*/
+}
+h1 {
+  font-size: 35px;
+  font-family: Georgia; /*16 changed h1 font-family to Georgia*/
+  font-weight: lighter; /*17 made font weight lighter*/
+  border-bottom: 3px dashed #bb5050; /*18 added border to bottom of h1*/
+}
+img {
+  display: block; /*3 made the image display block style*/
+  margin: 0 auto; /*4 centered image*/
+  margin-top: 10px; /*5 increased margins on top of image*/
+  margin-bottom: 10px; /*6 increased margines on bottom of image*/
+  width: 80%; /*7 made image 80% width*/
+  border: 5px ridge #bb5050; /*8 gave images a border */
+  padding: 4px; /*9 gave images padding of 4px*/
+}
+.left-column {
+  font-family: Helvetica; /*15 changed column font family to Helvetica*/
+}
+a {
+  color: #00eeee; /*19 made link light blue*/
+}
