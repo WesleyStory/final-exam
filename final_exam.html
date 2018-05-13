@@ -2,96 +2,152 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>DataTables exercise</title>
+  <title>FinalExam</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 </head>
 <body>
+  <div class="container">
+  <div class="article">
+  <h1>On-Campus Residents Required to Contribute to UT Food Service Business</h1>
+  <img src="http://i.onionstatic.com/onion/1560/4/16x9/600.jpg">
+  <h2><p class="byline"> <strong> By Wesley Story </strong> </p></h2>
+  <h3><p class="publish-time"> <em> Published May 11, 2018 </em> </p>
+  <div class="story-text"></h3>
+    <p class="paragraph1"> UT students sometimes pay more than twice as much for products at the campus market than they pay at the local grocery store, which irks some on-campus residents who wish to see changes in the <a href="http://housing.utexas.edu/dining" target="_blank">Division of Housing and Food Service's</a> business model.</p>
 
-  <table id="example" class="display" cellspacing="0" width="100%">
-        <thead>
-            <tr>
+    <p class="paragraph2">UT has a different meal plan structure than most other universities in Texas. The University doesn't give a certain number of food swipes for the semester, but instead requires students to purchase Dining Dollars and Bevo Bucks from DHFS at the beginning of the school year. Students use this mock currency throughout the semester to purchase food from the dining halls or markets located on campus. Some students feel that the university's food service business model hurts them financially.</p>
+
+    <p class=paragraph3>Carla Cos, nutrition senior and on-campus resident, said the system forces students to spend more money than what they'd spend normally on the same food items.</p>
+
+    <p class="paragraph4">"The food prices on-campus are ridiculous, especially in the markets," Cos said. "It's like living at Disneyland or Six Flags. If I didn't live on-campus, I would never purchase anything from the campus dining facilities, but I have to because I've already spent the money on the meal plan."</p>
+
+    <p class="paragraph5">Residents pay for 750 Dining Dollars and 150 Bevo Bucks each semester for a total of $900 spent on the DHFS currency, as is required by the Division. One Bevo Buck or one Dining Dollar equals one normal dollar.</p>
+
+    <p class="paragraph6">Dining Dollars and Bevo Bucks are accepted at all of the main food service locations on campus including the Jester and Kinsolving dining locations, Cypress Bend and Littlefield Patio Café. Students receive a 10 percent discount on food or drink items at these locations when they use Dining Dollars or Bevo Bucks.</p>
+
+    <p class="paragraph7">A visit to J2, the cheapest and most popular dining facility on UT's campus, costs 4.62 Dining Dollars after the discount. This means that if a student only ate at J2, they could afford 162 meals with their Dining Dollars. If the student only ate two meals a day every day of the semester, that would still not be enough Dining Dollars to get the student through to the end of November. The student would need at least 831.6 Dining Dollars to last until the last day of November.</p>
+
+    <p class="paragraph8">Some products in the on-campus markets have noticeable upcharges compared to local grocery stores. Jester City Market, located in Jester Dormitory, charges $3.75 for a half-gallon of milk, while the same product at the HEB on Burnet Road costs $1.66. Even with the 10 percent discount, students pay 104 percent more (more than twice as much) for the milk than they would at HEB.</p>
+
+    <p class="paragraph9">Many other normal grocery items found in the on-campus markets demonstrate this price disparity. The table found below compares prices of products found at Jester City Market (one of the two on-campus markets) to the HEB prices for the same products.</p>
+
+    <table id="example" class="display" cellspacing="0" width="100%">
+          <thead>
+              <tr>
+                  <th>Item</th>
+                  <th>UT Market Price</th>
+                  <th>Price After 10% Discount</th>
+                  <th>HEB Price</th>
+                  <th>% Difference</th>
+              </tr>
+          </thead>
+          <tfoot>
+              <tr>
                 <th>Item</th>
                 <th>UT Market Price</th>
                 <th>Price After 10% Discount</th>
                 <th>HEB Price</th>
                 <th>% Difference</th>
-            </tr>
-        </thead>
-        <tfoot>
-            <tr>
-              <th>Item</th>
-              <th>UT Market Price</th>
-              <th>Price After 10% Discount</th>
-              <th>HEB Price</th>
-              <th>% Difference</th>
-            </tr>
-        </tfoot>
-        <tbody>
-            <tr>
-                <td>1/2 Gallon Milk</td>
-                <td>$3.75</td>
-                <td>$3.38</td>
-                <td>$1.66</td>
-                <td>104%</td>
-            </tr>
-            <tr>
-                <td>Loaf of Bread (Mrs. Baird's)</td>
-                <td>$3.39</td>
-                <td>$3.05</td>
-                <td>$2.18</td>
-                <td>40%</td>
-            </tr>
-            <tr>
-                <td>Healthy Choice Soup</td>
-                <td>$4.89</td>
-                <td>$4.40</td>
-                <td>$1.68</td>
-                <td>162%</td>
-            </tr>
-            <tr>
-                <td>8.9 oz Box of Cheerios</td>
-                <td>$6.19</td>
-                <td>$5.57</td>
-                <td>$2.62</td>
-                <td>113%</td>
-            </tr>
-            <tr>
-                <td>8 Box of Pop Tarts</td>
-                <td>$4.29</td>
-                <td>$3.86</td>
-                <td>$1.98</td>
-                <td>95%</td>
-            </tr>
-            <tr>
-                <td>Peter Pan Peanut Butter (16.3 oz)</td>
-                <td>$5.09</td>
-                <td>$4.58</td>
-                <td>$2.32</td>
-                <td>97%</td>
-            </tr>
-            <tr>
-                <td>Pint of Ben & Jerry's Ice Cream</td>
-                <td>$5.99</td>
-                <td>$5.39</td>
-                <td>$4.28</td>
-                <td>26%</td>
-            </tr>
-            <tr>
-                <td>RedBull (4 pack)</td>
-                <td>$7.99</td>
-                <td>$7.19</td>
-                <td>$6.20</td>
-                <td>16%</td>
-            </tr>
-            <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
-            <link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css" />
-            <script>$(document).ready(function() {
-    $('#example').DataTable( {
-        "scrollY":        "200px",
-        "scrollCollapse": true,
-        "paging":         false
-    } );
-} );</script>
-        </tbody>
-    </table>
+              </tr>
+          </tfoot>
+          <tbody>
+              <tr>
+                  <td>1/2 Gallon Milk</td>
+                  <td>$3.75</td>
+                  <td>$3.38</td>
+                  <td>$1.66</td>
+                  <td>104%</td>
+              </tr>
+              <tr>
+                  <td>Loaf of Bread (Mrs. Baird's)</td>
+                  <td>$3.39</td>
+                  <td>$3.05</td>
+                  <td>$2.18</td>
+                  <td>40%</td>
+              </tr>
+              <tr>
+                  <td>Healthy Choice Soup</td>
+                  <td>$4.89</td>
+                  <td>$4.40</td>
+                  <td>$1.68</td>
+                  <td>162%</td>
+              </tr>
+              <tr>
+                  <td>8.9 oz Box of Cheerios</td>
+                  <td>$6.19</td>
+                  <td>$5.57</td>
+                  <td>$2.62</td>
+                  <td>113%</td>
+              </tr>
+              <tr>
+                  <td>8 Box of Pop Tarts</td>
+                  <td>$4.29</td>
+                  <td>$3.86</td>
+                  <td>$1.98</td>
+                  <td>95%</td>
+              </tr>
+              <tr>
+                  <td>Peter Pan Peanut Butter (16.3 oz)</td>
+                  <td>$5.09</td>
+                  <td>$4.58</td>
+                  <td>$2.32</td>
+                  <td>97%</td>
+              </tr>
+              <tr>
+                  <td>Pint of Ben & Jerry's Ice Cream</td>
+                  <td>$5.99</td>
+                  <td>$5.39</td>
+                  <td>$4.28</td>
+                  <td>26%</td>
+              </tr>
+              <tr>
+                  <td>RedBull (4 pack)</td>
+                  <td>$7.99</td>
+                  <td>$7.19</td>
+                  <td>$6.20</td>
+                  <td>16%</td>
+              </tr>
+              <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+              <link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css" />
+              <script>$(document).ready(function() {
+      $('#example').DataTable( {
+          "scrollY":        "200px",
+          "scrollCollapse": true,
+          "paging":         false
+      } );
+  } );</script>
+          </tbody>
+      </table>
+
+    <p class="paragraph10">Reena Patel, biology sophomore, said she spent a majority of her money in the markets her freshman year.</p>
+
+    <p class="paragraph11">"Last year I ran out of Dining Dollars three weeks before the end of the semester and wasn't sure how I was going to pay for food," Patel said. "Now that I live off-campus, I am more frugal with my money. I've spent a lot less on food this year than I did last year by this point."</p>
+
+    <p class="paragraph12">Lindsey Gaydos, registered dietician for DHFS, said Patel is not the only student to encounter this problem.  </p>
+
+    <p class="paragraph13">"Students can forget that their on-campus currency was once real money simply because it has a different name," Gaydos said. "The Dining Dollars and Bevo Bucks are similar to gift cards because they were paid for with real money and can't be used just anywhere."  </p>
+
+    <p class="paragraph14">This "gift card" process is not the same at all universities. Students at Texas State purchase swipes instead of Dining Dollars. The students choose from different meal plan options at the beginning of each semester. The students can purchase 250 swipes for $900 or 200 swipes for $800 according to the Texas State website. Each swipe accounts for one meal.</p>
+
+    <p class="paragraph15">The $900 option guarantees 250 meals, meaning that each meal is $3.60. For $900, students at UT can only buy 162 meals. Students noticed differences like these between UT and other universities in the state and used those differences to argue for change unsuccessfully.</p>
+
+    <p class="paragraph16">Dana Lowe, a psychology sophomore at Texas State University, said it was the cost of tuition and on-campus living expenses that ultimately decided where she went to college.</p>
+
+    <p class="paragraph17">"I was originally interested in attending UT, but I couldn't afford it," Lowe said. "The meal plan might seem like a small difference to some, but when you're paying for college on your own like me, things like that can be a deciding factor."</p>
+
+    <p class="paragraph18">Lowe said she has never run out of swipes before the end of the semester and does not know of anyone else who has run out of swipes.</p>
+
+    <p class="paragraph19">DHFS is in the Division of Student Affairs at UT and is responsible for all on-campus residence facilities and the University Apartments. The self-supporting Division operates its own food service without State or University funds and employs approximately 1,000 full and parttime staff, according to the DHFS website. This means that DHFS is not subsidized by the University, but is a separate entity that funds itself.</p>
+
+    <p class="paragraph20">Scott Meyer, director of dining services for DHFS, said that because of the Division's independence from the university, it is necessary for the business to function the way it does.  </p>
+
+    <p class="paragraph21">"I understand students' complaints, but the current business model has proven to be the most profitable for DHFS and the most affordable for students," Meyer said. "Though students may have to practice budgeting in order to make their Dining Dollars last all semester, the method we have in place allows for more spending flexibility."  </p>
+
+    <p class="paragraph22"> Meyer said that with the markets and the different prices for specialized foods in Jester City Limits and Littlefield Patio Café, it would be impossible to go back to a swipe system because of the lack of price uniformity. </p>
+
+    <p class="paragraph23">"It's easy to speculate about other models and I know there are many students who wish we did things the same way as other universities like Tech or Texas State, but in practice, the swipe system would not hold up here because of our size," Meyer said.  </p>
+
+    <p class="paragraph24">Meyer said he could not release the Divisions' financial paperwork, but that there has been a small increase in revenue for DHFS this semester. Meyer said he believes the increase may be a result of the biggest freshmen class the University has seen to date.  </p>
+
 </body>
+</html>
